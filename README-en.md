@@ -1,4 +1,6 @@
 # Terraform-modular-structure
+# **Resource Coverage:** This repository manages end-to-end AWS infrastructure—VPC, subnets, Internet Gateway, route tables, security groups, and EC2 instances—via Terraform modules.
+
 Modular, Reusable Architecture
 You’ve split VPC, Security Group and EC2 into separate modules, making the code clean, easy to read and reuse. Names like module.vpc and module.sg immediately tell you what each component does.
 
